@@ -1,0 +1,9 @@
+employee = { "name" : "Tim", "age" : "30", "DoB" : "1990-03-10","job": "Devops Engineer"}
+employee["job"] = "Software Engineer"
+del employee["age"]
+for key,value in employee.items():
+    print(key, ':', value)
+Output here:
+name : Tim
+DoB : 1990-03-10
+job : Software Engineer

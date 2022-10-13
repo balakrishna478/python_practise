@@ -1,0 +1,12 @@
+import random
+num = random.randint(1,9)
+print(num)
+while True:
+    user_num = int(input('Enter a number   '))
+    if user_num == num:
+        print("YOU WON")
+        break
+    elif user_num < num:
+        print('You guessed a lower number')
+    elif user_num > num:
+        print('You guesses a higher number')
